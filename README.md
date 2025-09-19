@@ -1,7 +1,7 @@
 # 📌 Proyecto ASP.NET MVC + EF Core + Windows Forms
 
 Este proyecto consiste en una **API REST** desarrollada con **ASP.NET MVC** y **Entity Framework Core**, utilizando **PostgreSQL** como base de datos.  
-La API es consumida desde una aplicación de **Windows Forms (WinForms)**.
+La API es consumida desde una aplicación de **Windows Forms**.
 
 ## 🚀 Tecnologías utilizadas
 - [ASP.NET MVC](https://dotnet.microsoft.com/apps/aspnet) - Framework para construir la API.
@@ -10,28 +10,37 @@ La API es consumida desde una aplicación de **Windows Forms (WinForms)**.
 - [Windows Forms](https://learn.microsoft.com/dotnet/desktop/winforms/) - Cliente de escritorio para consumir la API.
 
 ## 📂 Estructura del proyecto
-Proyecto/
-│── Api/ # Proyecto ASP.NET MVC con EF Core (endpoints REST)
-│── ClienteWinForms/ # Proyecto WinForms que consume la API
-│── README.md # Documentación del proyecto
-
+   ```bash
+   Proyecto/
+      │── Api/ # Proyecto ASP.NET MVC con EF Core (endpoints REST)
+      │── ClienteWinForms/ # Proyecto WinForms que consume la API
+      │── assets # Imagenes para DEMO
+      │── README.md # Documentación del proyecto
+   ```
 ## ⚙️ Funcionalidades
 - CRUD completo (Create, Read, Update, Delete) sobre la entidad **Alumno** (ejemplo).
 - Validaciones desde la API.
-- Consumo de la API desde una interfaz de escritorio en **WinForms**.
+- Consumo de la API desde una interfaz de escritorio en **Windows Forms**.
 
 ## ▶️ Ejecución del proyecto
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/usuario/proyecto.git
+   ```
 2. Configurar la cadena de conexión en appsettings.json del proyecto Api (PostgreSQL).
-"ConnectionStrings": {
-  "DefaultConnection": "Host=localhost;Port=5432;Database=NombreBD;Username=usuario;Password=clave"
-}
+   ```bash
+   "ConnectionStrings": {
+     "DefaultConnection": "Host=localhost;Port=5432;Database=NombreBD;Username=usuario;Password=clave"
+   }
+   ```
 3. Aplicar migraciones de EF Core:
-dotnet ef database update
+   ```bash
+   dotnet ef database update
+   ```
 4. Ejecutar la API:
-dotnet run --project Api
+   ```bash
+   dotnet run --project Api
+   ```
 5. Ejecutar el Cliente WinForms y la WebRestApp para probar el consumo de la API.
 
 ## 📸 Captura

@@ -14,7 +14,7 @@ La API es consumida desde una aplicación de **Windows Forms**.
    Proyecto/
       │── Api/ # Proyecto ASP.NET MVC con EF Core (endpoints REST)
       │── ClienteWinForms/ # Proyecto WinForms que consume la API
-      │── assets # Imagenes para DEMO
+      │── assets/ # Imagenes para DEMO
       │── README.md # Documentación del proyecto
    ```
 ## ⚙️ Funcionalidades

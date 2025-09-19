@@ -25,7 +25,7 @@ La API es consumida desde una aplicación de **Windows Forms**.
 ## ▶️ Ejecución del proyecto
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/proyecto.git
+   git clone https://github.com/Renzoh17/Renzoh17-App-ASPNET-
    ```
 2. Configurar la cadena de conexión en appsettings.json del proyecto Api (PostgreSQL).
    ```bash
@@ -41,7 +41,7 @@ La API es consumida desde una aplicación de **Windows Forms**.
    ```bash
    dotnet run --project Api
    ```
-5. Ejecutar el Cliente WinForms y la WebRestApp para probar el consumo de la API.
+5. Ejecutar el Cliente de WinForms y la WebRestApp para probar el consumo de la API.
 
 ## 📸 Captura
 ![WinForm-IMG](assets/WinForm-IMG.png)

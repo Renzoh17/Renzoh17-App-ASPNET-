@@ -12,7 +12,7 @@ La API es consumida desde una aplicación de **Windows Forms**.
 ## 📂 Estructura del proyecto
    ```bash
    Proyecto/
-      │── -App-ASPNET- # Carpeta de ambos proyectos
+      │── -App-ASPNET-/ # Carpeta de ambos proyectos
          │── WebRestApp-ASPNET-/ # Proyecto ASP.NET MVC con EF Core (endpoints REST)
          │── AppDesktop-FORMNETCORE-/ # Proyecto Windows Forms que consume la API
       │── assets/ # Imagenes para DEMO
@@ -42,7 +42,7 @@ La API es consumida desde una aplicación de **Windows Forms**.
    ```bash
    dotnet run --project Api
    ```
-5. Ejecutar el Cliente de WinForms y la WebRestApp para probar el consumo de la API.
+5. Ejecutar la WebRestApp y el Cliente de WinForms para probar el consumo de la API.
 
 ## 📸 Captura
 ![WinForm-IMG](assets/WinForm-IMG.png)
